@@ -1,11 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Ubuntu|Shadows+Into+Light|Oxygen);
 
 
 .page-header h1{
-    font-family: 'Open Sans', sans-serif;
+    font-size: 80px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.page-header p{
+    font-size: 24px;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 #home{
     background-color: #f0f0f0;
     text-align: center;
 }
+#svgS{
+    /*border: thin solid #ccc;*/
+    margin: 0 auto;
+    height: 250px; width: 250px;
+    margin-bottom: -50px;
+}
+
+#my-image{
+    -webkit-clip-path: url(#svgPath);
+            clip-path: url(#svgPath);
+}
+
